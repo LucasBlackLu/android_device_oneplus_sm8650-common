@@ -377,6 +377,9 @@ $(call soong_config_set,OPLUS_LINEAGE_TOUCH_HAL,ENABLE_OPLUSTOUCH,true)
 # Virtualization service
 $(call inherit-product, packages/modules/Virtualization/apex/product_packages.mk)
 
+# Virtualization service
+$(call inherit-product, packages/modules/Virtualization/apex/product_packages.mk)
+
 # Update engine
 PRODUCT_PACKAGES += \
     update_engine \
