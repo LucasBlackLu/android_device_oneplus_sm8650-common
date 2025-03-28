@@ -109,8 +109,6 @@ BOARD_BOOTCONFIG := \
     androidboot.vendor.qspa=true \
     androidboot.usbcontroller=a600000.dwc3
 
-TARGET_KERNEL_CLANG_VERSION := r487747c
-
 BOARD_USES_GENERIC_KERNEL_IMAGE := true
 BOARD_KERNEL_BASE := 0x00000000
 BOARD_KERNEL_PAGESIZE := 4096
