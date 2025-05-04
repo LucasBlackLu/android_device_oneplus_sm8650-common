@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from OnePlus Ace 3 Pro (PJX110_15.0.0.600(EX01)).
+## are from OnePlus Ace 3 Pro (PJX110_15.0.0.801(CN01)).
 
 # Current blobs with ELF checks disabled:
 # libar-pal depends on libagmclient, which is a gnu makefile target
@@ -2006,7 +2006,7 @@ vendor/lib64/libhdcpsrm.so
 vendor/lib64/libmm-hdcpmgr.so
 
 # Hotword Enrollment from OnePlus 12 CPH2581_15.0.0.503(EX01)
-my_product/etc/sysconfig/com.android.hotwordenrollment.common.util.xml:product/etc/sysconfig/com.android.hotwordenrollment.common.util.xml|52b6a326e59e543daac9b8d6e960654095c0fb6b
+my_product/etc/sysconfig/com.android.hotwordenrollment.common.util.xml:product/etc/sysconfig/com.android.hotwordenrollment.common.util.xml|dce101edaf6acb2e6384be094f743bf95a346a3d
 my_product/framework/com.android.hotwordenrollment.common.util.jar:product/framework/com.android.hotwordenrollment.common.util.jar|2f9d61fcdbc33058e8a514b4b5a559d314bbabaf
 my_product/priv-app/HotwordEnrollmentXGoogleHEXAGON_WIDEBAND.apk:product/priv-app/HotwordEnrollmentXGoogleHEXAGON_WIDEBAND.apk|e37e5c51144d700b37627c907541b2d8b23e085a
 my_product/priv-app/HotwordEnrollmentYGoogleHEXAGON_WIDEBAND.apk:product/priv-app/HotwordEnrollmentYGoogleHEXAGON_WIDEBAND.apk|eb9b3c74fd190c2326a341e315461634b3d83490
@@ -2997,8 +2997,7 @@ odm/etc/init/vendor-oplus-hardware-touch-V2-service.rc
 odm/etc/vintf/manifest/manifest_touch_aidl.xml
 
 # Touch - From Oneplus 12
-odm/bin/touchDaemon|6a905ab46059a8919f4a133022226a754ab0c77a
-odm/bin/touchHidlTest|3d930f27bc93e2df2646fbd154875958e8062895
+odm/bin/touchDaemon|8b9ec6703de69ff1a7b8be28383c98a296d1d462
 
 # Vibrator
 odm/lib64/libaacvibrator.so:vendor/lib64/libaacvibrator.so
