@@ -218,6 +218,10 @@ vendor/lib64/libsdsprpc.so
 vendor/lib64/libsysmon_cdsp_skel.so
 
 # Charger
+odm/firmware/fastchg/23814/charging_hyper_mode_config.txt
+odm/firmware/fastchg/bms_heating_config.txt
+odm/firmware/fastchg/charge_time_config.csv
+odm/firmware/fastchg/charging_thermal_config_default.txt
 vendor/etc/charger_fw_fstab.qti
 
 # CNE
