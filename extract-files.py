@@ -118,8 +118,6 @@ blob_fixups: blob_fixups_user_type = {
         .clear_symbol_version('remote_register_buf'),
     'vendor/lib64/libcwb_qcom_aidl.so': blob_fixup()
         .add_needed('libui_shim.so'),
-    'product/etc/sysconfig/com.android.hotwordenrollment.common.util.xml': blob_fixup()
-        .regex_replace('/my_product', '/product'),
     'vendor/bin/system_dlkm_modprobe.sh': blob_fixup()
         .regex_replace(r'.*\bzram or zsmalloc\b.*\n', '')
         .regex_replace(r'-e "zram" -e "zsmalloc"', ''),
