@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from OnePlus 12 (CPH2581_15.0.0.850(EX01)).
+## are from OnePlus Ace 3 Pro (PJX110_15.0.0.850(CN01)).
 
 # Current blobs with deps disabled:
 # libqvrservice depends on multiple versions of the same aidl_interface: android.hardware.graphics.allocator-V1-ndk, android.hardware.graphics.allocator-V2-ndk-source
@@ -70,16 +70,11 @@ odm/lib/rfsa/adsp/libQnnHtpV75.so
 odm/lib/rfsa/adsp/libQnnHtpV75Skel.so
 odm/lib/rfsa/adsp/libQnnSaver.so
 odm/lib/rfsa/adsp/libSnpeHtpV75Skel.so
-odm/lib/rfsa/adsp/libSuperRawPost_skel.so
-odm/lib/rfsa/adsp/libaisr_skel.so
 odm/lib/rfsa/adsp/libarc_htp_driver_skel.so
 odm/lib/rfsa/adsp/libcalculator_skel.so
 odm/lib/rfsa/adsp/libhvxFaceBeautyPre_skel.so
 odm/lib/rfsa/adsp/libktveffect.so
-odm/lib/rfsa/adsp/libtfadsp_sb4_0_rx.so
-odm/lib/rfsa/adsp/libtfadsp_sb4_0_tx.so
-odm/lib/rfsa/adsp/libvdblurless_5.0.2_skel.so
-odm/lib/rfsa/adsp/libvdsuperphoto_skel.so
+odm/lib/rfsa/adsp/libsixth_rx_v3_5_21.so
 odm/lib/rfsa/adsp/nlc_bgth_v1_5.so
 vendor/lib/rfsa/adsp/chre_qsh_shim.so
 vendor/lib/rfsa/adsp/libDspIOProxy_skel.so
@@ -507,7 +502,7 @@ vendor/lib64/libnsptransaction.so
 vendor/lib64/vendor.qti.hardware.hexlp-V1-ndk.so
 
 # Horae
-odm/etc/horae/horae_target.conf
+odm/etc/horae/horae_target.conf|4399238ccff26b9eabbd598bfd7bc54907b921c6
 system/lib64/libostatslog.so:system_ext/lib64/libostatslog.so
 system/lib64/vendor.oplus.hardware.displaypanelfeature-V1-ndk.so:system_ext/lib64/vendor.oplus.hardware.displaypanelfeature-V1-ndk.so
 system_ext/bin/horae
@@ -517,12 +512,6 @@ system_ext/etc/horae/horae_SM8650.conf
 system_ext/etc/horae/horae_SM8650_CAIHONG.conf
 system_ext/etc/init/horae.rc
 system_ext/lib64/vendor.oplus.hardware.displaypanelfeature@1.0.so
-
-# Hotword Enrollment
-my_product/etc/sysconfig/com.android.hotwordenrollment.common.util.xml:product/etc/sysconfig/com.android.hotwordenrollment.common.util.xml
-my_product/framework/com.android.hotwordenrollment.common.util.jar:product/framework/com.android.hotwordenrollment.common.util.jar
-my_product/priv-app/HotwordEnrollmentXGoogleHEXAGON_WIDEBAND.apk:product/priv-app/HotwordEnrollmentXGoogleHEXAGON_WIDEBAND/HotwordEnrollmentXGoogleHEXAGON_WIDEBAND.apk
-my_product/priv-app/HotwordEnrollmentYGoogleHEXAGON_WIDEBAND.apk:product/priv-app/HotwordEnrollmentYGoogleHEXAGON_WIDEBAND/HotwordEnrollmentYGoogleHEXAGON_WIDEBAND.apk
 
 # Identity
 vendor/bin/hw/android.hardware.identity-service-qti
@@ -696,11 +685,14 @@ odm/etc/init/vendor.oplus.hardware.charger-V6-service.rc
 odm/etc/vintf/manifest/manifest_oplus_charger_aidl.xml
 odm/etc/charge.cfg
 odm/lib64/libGaiaClient_vnd.so
+odm/lib64/vendor.oplus.hardware.charger-V6-ndk.so
+system_ext/lib64/vendor.oplus.hardware.charger-V1-ndk.so
 
 # OPLUS Performance
 odm/etc/uah/uahconfig.pb
 odm/lib64/liboplus-uah-client.so
 odm/lib64/libuahcore.so
+odm/lib64/vendor.oplus.hardware.urcc-V1-ndk.so
 
 # OPLUS Project
 odm/bin/hw/vendor.oplus.hardware.stability.oplus_project-V1-service

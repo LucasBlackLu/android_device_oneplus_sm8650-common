@@ -1,22 +1,15 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from OnePlus 12 (CPH2581_15.0.0.850(EX01)).
+## are from OnePlus Ace 3 Pro (PJX110_15.0.0.850(CN01)).
 
 # Context Hub
-odm/etc/init/android.hardware.contexthub-service.qmi.rc
-odm/etc/vintf/manifest/android.hardware.contexthub-service.qmi.xml
 vendor/bin/hw/android.hardware.contexthub-service.qmi
 vendor/etc/chre/preloaded_nanoapps.json
-
-# eSIM
-odm/bin/hw/vendor.oplus.hardware.esim@1.0-service
-odm/etc/init/esim@1.0-service.rc
-odm/etc/vintf/manifest/manifest_oplus_esim.xml
 
 # Fingerprint
 odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service_uff
 odm/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc
 odm/etc/vintf/manifest/manifest_oplus_fingerprint_aidl_v3.xml
-odm/lib64/libclstc_fod_color.so
+odm/lib64/libclstc_fod_color.so|6c566c31f1878193eb0d659090da46fcb0f67ba4
 
 # Fingerprint Pay
 odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprintpay@1.0-service
@@ -226,7 +219,6 @@ odm/etc/init/commcenterd.rc
 odm/etc/init/subsys_daemon.rc
 odm/etc/vintf/manifest/device_manifest_communication_center_aidl.xml
 odm/etc/QtiFtmPublicKey.pem
-odm/etc/oem_stx_platform_license.pfm
 odm/etc/plugin_config.xml
 odm/lib64/lib-virtual-modem-protos.so
 odm/lib64/libcommcenterfw.so
@@ -393,21 +385,6 @@ vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.1.so
 vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.2.so
 vendor/lib64/vendor.qti.hardware.radio.uim_remote_server-V1-ndk.so
 vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0.so
-
-# RIL - UIM
-product/app/uimgbaservice/uimgbaservice.apk
-product/app/uimremoteclient/uimremoteclient.apk
-product/app/uimremoteserver/uimremoteserver.apk
-product/etc/permissions/UimGba.xml
-product/etc/permissions/UimGbaManager.xml
-product/etc/permissions/UimService.xml
-product/framework/uimgbalibrary.jar
-product/framework/uimgbamanagerlibrary.jar
-product/framework/uimremoteclientlibrary.jar
-product/framework/uimremoteserverlibrary.jar
-product/framework/uimservicelibrary.jar
-system/etc/permissions/uimremoteclient.xml
-system/etc/permissions/uimremoteserver.xml
 
 # RemoteFS
 vendor/bin/rmt_storage
